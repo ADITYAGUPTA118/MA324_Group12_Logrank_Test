@@ -17,6 +17,29 @@ We have worked on the following implementations of
   4) Weighted Log-Rank and Power of the test for various Real World Datasets
 
 In the third stage, we have considered the various weighted versions of the Log-Rank test mentioned above and modified the Random Survival Forest algorithm to use these weight distributions.
+
+**<h2>References</h2>**
+1) https://web.stanford.edu/~lutian/coursepdf/unitweek3.pdf
+2) https://en.wikipedia.org/wiki/Logrank_test
+3) https://www.statology.org/log-rank-test-in-r/
+4) https://rdrr.io/cran/LogrankPower/
+5) https://datatab.net/tutorial/log-rank-test
+6) https://lifelines.readthedocs.io/en/latest/lifelines.statistics.html
+7) https://journal.r-project.org/articles/RN-2007-015/RN-2007-015.pdf
+
+**<h2>Sources and Datasets</h2>**
+https://github.com/julianspaeth/random-survival-forest/tree/master/random_survival_forest
+
+1) Heart_failure_clinical_records_dataset.csv-
+  https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-020-1023-5#Sec2
+2) Diabetic.csv-
+  https://rweb.webapps.cla.umn.edu/R/library/survival/html/diabetic.html
+3) Echocardiogram.csv-
+  https://archive.ics.uci.edu/dataset/38/echocardiogram
+4) SurvivalCovid.csv-
+  https://www.kaggle.com/datasets/aysuncag/covid19-survival-dataset
+
+
      
 **<h2>Disclaimer</h2>**
 
